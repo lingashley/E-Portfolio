@@ -6,10 +6,19 @@
 -->
 <html>
 	<head>
-		<title>Single - Future Imperfect by HTML5 UP</title>
+		<title>alhq: MyProjects</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.container {
+				display: flex; /* Use flexbox for layout */
+				align-items: center; /* Align items vertically */
+			}
+			.container img {
+				margin-right: 10px; /* Add some space between image and text */
+			}
+		</style>
 	</head>
 	<body class="single is-preload">
 
@@ -23,7 +32,7 @@
 							<ul>
 								<li><a href="1_ABOUT.html">ABOUT</a></li>
 								<li><a href="2_PROJECTS.html">PROJECTS</a></li>
-								<li><a href="3_QUAILFICATIONS.html">QUAILFICATIONS</a></li>
+								<li><a href="3_QUALIFICATIONS.html">QUALIFICATIONS</a></li>
 								<li><a href="4_EXPERIENCE.html">EXPERIENCE</a></li>
 								<li><a href="5_SKILLS.html">SKILLS</a></li>
 								<li><a href="6_CV.html">Resume</a></li>
@@ -70,8 +79,8 @@
 									</a>
 								</li>
 								<li>
-									<a href="3_QUAILFICATIONS.html">
-										<h3>QUAILFICATIONS</h3>
+									<a href="3_QUALIFICATIONS.html">
+										<h3>QUALIFICATIONS</h3>
 										<p></p>
 									</a>
 								</li>
@@ -122,9 +131,50 @@
 								</header>
 								<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
 								<h2>project overview</h2>
-								<p>Our project began with an in-depth exploration of food printing systems, specifically focusing on both 3D and 2D food printers. The 3D food printers operate by extruding food materials through a nozzle, which moves along X-Y-Z axes to create intricate shapes and structures. On the other hand, 2D food printers, akin to traditional inkjet printers, deposit food-grade inks onto flat surfaces, creating detailed images and patterns. Initially, our goal was to enhance the capabilities of these systems to offer more customization in terms of food shape, color, and texture. However, as we delved deeper into the technology, we realized there was a significant, unaddressed need: making product information accessible to visually impaired individuals, who often struggle with reading small print on packaging.</p>
-								<p>Identifying this gap, we transitioned our focus towards developing a solution that could leverage food printing technology to improve accessibility. We began by researching existing solutions like Braille embossers and NaviLens. Braille embossers elevate surfaces to create tactile text readable by touch, while NaviLens uses visual codes that can be scanned by smartphones to provide audio descriptions. Both systems have their strengths; Braille offers tactile feedback and enhanced memory retention without the need for digital devices, making it highly effective for visually impaired individuals. However, it requires specialized equipment and skills to produce. NaviLens, while user-friendly and capable of storing vast amounts of information, is smartphone-dependent, which might not be convenient or accessible for everyone.</p>
-								<p>To integrate the best aspects of these existing solutions into our food printing systems, we explored three main concepts: thermal ink, UV curable ink, and binder inkjet technology. Thermal ink involves the use of heat to cure the printed material, ensuring durability and tactile feedback similar to Braille embossing. However, the addition of heat posed potential risks of damaging food products, making this method less viable. UV curable ink presented a promising alternative, using ultraviolet light to cure the material quickly. This method required modifications to the printing system, such as incorporating UV light sources, and raised concerns about potential chemical residues on food. Finally, binder inkjet technology, which involves using a binding agent to solidify printed materials, showed the most promise. By carefully controlling the binder and material interactions, we could achieve the desired tactile feedback and precision required for Braille text, while maintaining the safety and integrity of the food products. This method also allowed us to leverage existing food printing infrastructure with minimal modifications.</p>
+								<p>Our project began with enhancing 3D and 2D food printing systems for better customization of food shapes, colors, and textures. We then pivoted to addressing accessibility for visually impaired individuals by integrating Braille embossing and NaviLens technology into food printing. Binder inkjet technology emerged as the best solution, enabling us to print tactile, Braille-like text on food products safely and efficiently. This approach improves accessibility while utilizing existing food printing infrastructure with minimal modifications.</p>
+								
+								<h2>Food printing technology</h2>
+								<p><b>3D Food Printers:	</b> printers operate by extruding food materials through a nozzle, which moves along the X, Y, and Z axes to create intricate shapes and structures.</p>
+								<p><b>2D Food Printers:	</b> Similar to traditional inkjet printers, these deposit food-grade inks onto flat surfaces, creating detailed images and patterns.</p>
+								
+								<h2>Problem Domain exploration</h2>
+								<p>
+								<b>Information Accessibility for The Visually Impaired</b></p>
+								<p>
+								More than 1.1 billion people worldwide are visually impaired, and 9 out of 10 of them report difficulties in reading information and labels. 
+								This issue arises because printed information is often in small text, disregarding the needs of the visually impaired population. 
+								Accessing information such as expiry dates, dietary details, and usage instructions is essential for making informed decisions.
+								</p>
+
+								<h2>Looking into Existing Solutions</h2>
+								<p><b>Braille Embossers: </b>These devices create tactile text readable by touch, offering enhanced memory retention without requiring digital devices. However, they need specialized equipment and skills.</p>
+								<p><b>NaviLens: </b>This technology uses visual codes that smartphones can scan to provide audio descriptions. While it is user-friendly and capable of storing vast information, it is dependent on smartphones, which might not be convenient or accessible for everyone.</p>
+
+								<h2>Preliminary Concept</h2>
+								<p>We realized that the primary concept of this system was the <b>extrusion of materials to elevate the surface</b> essential for creating tactile feedback, which is the core of Braille's functionality.
+								Based on this concept, we explored into three main technologies: thermal ink, UV curable ink, and binder inkjet technology.</p>
+								
+								
+								<span class="image featured"><img src="images/Preliminary Concept with Thermal Radiation.jpg" alt="Preliminary Concept with Thermal Radiation" /></span>
+								<p><b>Thermal Ink</b>
+								Uses heat to cure the printed material, ensuring durability and tactile feedback similar to Braille embossing. 
+								However, heat posed risks of damaging food products, making this method less viable.
+								</p>
+								
+								<span class="image featured"><img src="images/Preliminary Concept with Ultraviolet Light.jpg" alt="Preliminary Concept with Ultraviolet Light" /></span>
+								<p><b>UV Ink</b>
+								Cures material quickly using ultraviolet light. 
+								This method required system modifications (incorporating UV light sources) and raised concerns about potential chemical residues on food.
+								</p>
+								
+
+								<span class="image featured"><img src="images/Preliminary Concept with Binder Jetting .jpg" alt="Preliminary Concept with Binder Jetting " /></span>
+								<p><b>Binder Inkjet</b>
+									Involves using a binding agent to solidify printed materials. 
+									By carefully controlling binder and material interactions, we achieved the desired tactile feedback and precision required for Braille text while maintaining food safety. 
+									This method also allowed us to utilize existing food printing infrastructure with minimal modifications.
+								</p>
+
 
 							<!--<footer>
 									<ul class="stats">
